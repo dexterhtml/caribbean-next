@@ -1,0 +1,179 @@
+/* Footer Css Start From Here  */
+
+.main-footer {
+  background-color: #07250e;
+  padding: 80px 0;
+}
+.main-footer .footer-top {
+  position: relative;
+  margin-bottom: 10px;
+}
+.footer-top-content {
+  position: absolute;
+  top: 50%;
+  left: 105px;
+  transform: translate(3%, -50%);
+}
+.footer-top-content .small-title{
+font-size: clamp(18px,4vw,28px);
+color: #fff;
+margin-bottom: 16px;
+}
+.footer-top-content .large-title{
+    font-size: clamp(36px,4vw,60px);
+    color: #fff;
+    margin-bottom: 24px;
+}
+.footer-top-btn{
+    color: #4607A7;
+    background-color: #F6B703;
+    padding: 14px 40px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.footer-bottom{
+
+}
+.footer-bottom .footer-bottom-up{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #7B7B7B;
+padding-bottom: 20px;
+}
+.footer-bottom .footer-img{
+width: 192px;
+height: 128px;
+}
+.footer-bottom .footer-img img{
+    width: 100%;
+    height: 100%;
+}
+.footer-bottom-up .right-content{
+display: flex;
+flex-direction: column;
+row-gap: 36px;
+}
+
+.footer-bottom-down{
+padding-top: 20px;
+}
+.footer-bottom-down .com-para{
+    font-size: 14px;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.footer-bottom-down .copy-right{
+color: #F6B703;
+font-size: 14px;
+}
+.right-up{
+    display: flex;
+    justify-content: end;
+    gap: 48px;
+}
+.right-up .btn-link{
+    color: #F6B703;
+    font-size: clamp(18px,4vw,24px);
+    line-height: 140%;
+    font-weight: 500;
+}
+.right-down{
+    display: flex;
+    gap: 16px;
+}
+.right-down .btn-img img{
+    max-height: 56px;
+    object-fit: unset;
+    height: 56px;
+}
+.social-group{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.social-group .social-img{
+    width: 48px;
+    height: 48px;
+}
+.social-group .social-img img{
+    width: 100%;
+    height: 100%;
+}
+/* Footer Css End Here  */
+
+
+/* Faq Css Start From Here  */
+.faq-wrapper{
+    background: #C1FEB3;
+}
+.faq-section{
+    background-image: url(/images/faq-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 190px 0 60px 0;
+}
+.faq-left-desc{
+    max-width: 484px;
+}
+.faq-left-desc .green-para{
+    background-color: #C1FEB3;
+    color: #00C92C;
+    padding: 8px 32px 8px 70px;
+    border-radius: 8px;
+    font-size: clamp(20px,4vw,28px);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+.faq-left-desc .green-para::before{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #00C92C;
+    border-bottom: 2px solid #00C92C ;
+   top: 50%;
+   left: 32px;
+    position: absolute;
+}
+.faq-left-desc .com-title{
+    font-size: clamp(36px,4vw,56px);
+    line-height: 140%;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.faq-wrapper{
+
+}
+.faq-wrapper .accordion-flush .accordion-item{
+margin-bottom: 32px;
+border-radius: 8px;
+border: none;
+overflow: hidden;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
+    background-color: #70811F;
+    color: #fff;
+    font-size: clamp(20px,4vw,24px);
+    font-weight: 500;
+}
+.faq-wrapper .accordion-flush .accordion-item .accordion-button::after{
+    background-image: url("/images/white-chevron-down.png") ;
+}
+.faq-wrapper .accordion-flush .accordion-item .accordion-body{
+    background-color: #70811F;
+    color: #fff;
+    border: none;
+    font-size: clamp(14px,4vw,16px);
+    line-height: clamp(120%,4vw,150%);
+}
+.faq-wrapper .accordion-flush .accordion-item .accordion-button:focus{
+    border-color: none;
+    box-shadow: none;
+
+}
+/* Faq Css End Here  */
