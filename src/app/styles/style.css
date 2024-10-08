@@ -1,0 +1,6 @@
+
+.main-banner{
+  background: url(/images/home-banner.png) no-repeat center /cover; 
+  /* background-color: red; */
+}
+.banner-height{max-height: 756px; height: calc(100vh - 0px);}

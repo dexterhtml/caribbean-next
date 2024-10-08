@@ -1,0 +1,348 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  scroll-behavior: smooth;
+  
+  /*-------------colors---------- */
+  --primary-color:#F6B703;
+  --secondary-color: #00C92C;
+  --purple-color:#4607A7;
+  --dark-color: #000000;
+  --white-color:#ffffff ;
+  --highlight-color:#4607A7 ;
+  --heading-color: #4607A7;
+  --body-color: #000000 ;
+  /* --light-color: ;
+  --link-color: ; */
+  --font-noto-serif: "Noto Serif";
+  --font-roboto: Roboto;
+  --border-width:1px;
+  /*-------------font size--------------- */
+  
+  --fs-xs: clamp(11px, 1vw, 12px);
+  --fs-sm: clamp(12px, 1vw, 14px);
+  --fs-base: clamp(13px, 1.4vw, 16px); 
+  --fs-md: clamp(14px, 5.4176px + 0.7818vw, 18px);        
+  --fs-lg: clamp(14.5px, 6.128px + 0.7818vw, 20px); 
+  --fs-xl: clamp(15.5px, 5.2544px + 1.05vw, 22px);    
+  --fs-2xl: clamp(15.5px, 5.2544px + 1.05vw, 24px);    
+  --fs-3xl: clamp(16px, 2.2px + 1.2vw, 26px);       
+  --fs-4xl: clamp(16.5px, 2.8px + 1.2vw, 28px);    
+  --fs-5xl: clamp(17px, 7px + 1.519vw, 36px);           
+  --fs-6xl: clamp(18px, 9px + 1.7273vw, 40px);             
+  --fs-7xl: clamp(19px, 8px + 3.8vw, 56px); 
+  --fs-8xl: clamp(20px, 8px + 3.8vw, 60px); 
+  --fs-9xl: clamp(22px, 8px + 4.8vw, 80px);  
+
+}
+/* {
+ 
+  
+  --fs: clamp(13px, 1.4vw, 16px);
+  --fs: clamp(15px, 4.5368px + 1vw, 22px);             
+    
+  --fs: clamp(16px, 2.2px + 1.2vw, 26px);              
+  --fs: clamp(16.5px, 4px + 1.6365vw, 30px);           
+  --fs: clamp(17px, 5px + 1.64vw, 32px);               
+  --fs: clamp(17.5px, 6px + 1.5vw, 34px);              
+             
+  --fs: clamp(19px, 8px + 1.514vw, 38px);              
+  --fs: clamp(20.5px, 9px + 1.7473vw, 42px);             
+  --fs: clamp(21px, 10px + 1.7673vw, 44px);            
+  --fs: clamp(23px, 13px + 1.9vw, 48px);               
+  --fs: clamp(26px, 8px + 3.8vw, 50px);  
+            
+} */
+body{ font-family: var( --font-noto-serif) !important;}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+}
+/*---------------- font size css ------------------------- */
+.fs-9xl {
+  font-size: var(--fs-9xl);
+}
+.fs-8xl {
+  font-size: var(--fs-8xl);
+}
+.fs-7xl {
+  font-size: var(--fs-7xl);
+}
+.fs-6xl {
+  font-size: var(--fs-6xl);
+}
+.fs-5xl {
+  font-size: var(--fs-5xl);
+}
+.fs-4xl {
+  font-size: var(--fs-4xl);
+}
+.fs-3xl {
+  font-size: var(--fs-3xl);
+}
+.fs-2xl {
+  font-size: var(--fs-2xl);
+}
+.fs-xl {
+  font-size: var(--fs-xl);
+}
+.fs-lg {
+  font-size: var(--fs-lg);
+}
+.fs-md {
+  font-size: var(--fs-md);
+}
+.fs-base {
+  font-size: var(--fs-base);
+}
+.fs-sm {
+  font-size: var(--fs-sm);
+ }
+/* --------section title---------------- */
+.section-sm-title {
+  font-size: var(--fs-base);
+}
+.section-md-title {
+  font-size: var(--fs-md);
+}
+.section-xl-title {
+  font-size: var(--fs-xl);
+}
+.section-title {
+  font-size: var(--fs-2xl);
+  margin-bottom: clamp(1.375rem, 0.8659rem + 2.5455vw, 3.125rem); 
+}
+.section-head {
+  margin-bottom: clamp(1.375rem, 0.8659rem + 2.5455vw, 3.125rem); 
+  text-align: center;
+}
+
+/* -------------------------- */
+
+ h1, h2, h3, h4, h5, h6, .section-head .section-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--heading-color);
+}
+
+h1, h2, h3, .section-head .section-title  {font-weight: 900; color: var(--heading-color);}
+
+p{
+  font-size: var(--fs-base);
+  color: var(--body-color);
+ 
+}
+p:not(:last-child){ margin-bottom: 1rem;}
+/*---------------- color css ------------------------- */
+.primary-text {
+  color: var(--primary-color);
+}
+.secondary-text {
+  color: var(--secondary-color);
+}
+.link-text {
+  color: var(--link-color);
+}
+.heading-text {
+  color: var(--heading-color);
+}
+.body-text {
+  color: var(--body-color);
+}
+/* background color */
+.primary-bg {
+  background: var(--primary-color);
+}
+.secondary-bg {
+  background: var(--secondary-color);
+}
+/*---------------- btn css---------- */
+.btns {
+  font-size: var(--fs-xl);
+  font-weight: 600;
+  line-height: 1.6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: baseline;
+  -moz-column-gap: 0.25rem;
+  column-gap: 0.25rem;
+  white-space: nowrap;
+  padding-block: clamp(8px, 1vw, 12px);
+  padding-inline: clamp(14px, 1vw, 12px);
+  min-width: 160px;
+  max-width: 160px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 900;
+  --_button-bg:var(--bg-hover,var(--primary-color));
+  --_button-text:var(--text-hover, #000);}
+
+.btn:not(:last-child) {margin-right: clamp(14px, 1.6vw, 20px);}
+
+.btn_lg{
+  font-size:var(--fs-lg) ;
+}
+.btn_md{
+  font-size:var(--fs-md) ;
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 48px;
+}
+.btn_sm{
+  font-size:var(--fs-sm) ;
+}
+.btns:hover{
+  background-color: var(--_button-bg);
+  border-color: var(--_button-bg);
+  color: var(--_button-text);
+}
+.btn_primary {
+  color: var(--purple-color);
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  --bg-hover:var(--dark-color);  
+  --text-hover:var(--white-color)
+}
+.btn_primary_outline {
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 2px solid rgba(var(--primary-color), 1);
+  --bg-hover:var(--dark-color);  
+  --text-hover:var(--white-color)
+}
+/* .btn-primary-outline:hover  {
+  background-color: rgba(0, 0, 0, 0.1);
+} */
+.btn_secondary {
+  color: var(--purple-color);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  --bg-hover:var(--dark-color);  
+  --text-hover:var(--white-color)
+}
+.btn_secondary_outline {
+  color: var(--secondary-color);
+  background-color: transparent;
+  border-color: var(--secondary-color);
+  --bg-hover:var(--dark-color);  
+  --text-hover:var(--white-color)
+}
+/* reset css */
+a {
+  text-decoration: none !important;
+  color: currentColor;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+img,
+svg,
+picture,
+video {
+  -o-object-fit: cover;
+  object-fit: cover;
+  shape-margin: 1rem;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+/*-------------spacing css --------------  */
+.py-100 {padding-block: clamp(40px, 8vw, 100px);}
+.py-80,section {
+  padding-block: clamp(35px, 6vw, 80px);
+}
+.py-60 {
+  padding-block: clamp(35px, 5vw, 60px);
+}
+.py-40 {
+  padding-block: clamp(30px, 5vw, 40px);
+}
+.py-30 {
+  padding-block: clamp(20px, 5vw, 30px);
+}
+.my-80 {
+  margin-top: clamp(35px, 6vw, 80px);
+}
+.my-60 {
+  margin-top: clamp(35px, 5vw, 60px);
+}
+.my-40 {
+  margin-top: clamp(30px, 5vw, 40px);
+}
+.my-30 {
+  margin-top: clamp(20px, 5vw, 30px);
+}
+/*---------------------scroll bar css------------------ */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+/* ::-webkit-scrollbar-track {
+  background: ;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var();
+} */
+
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through !important;
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 1);
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px rgba(255, 255, 255, 0.15);
+}
+
+:focus-visible {
+  outline: none;
+}
+  .container-fluid{
+    max-width: 1140px;
+  }
+/* ------------bootstrap input/accordian reset ---------------*/
+
+body.modal-open,.overflow-hidden {
+  overflow: hidden;
+}
+
+
+ header nav {
+  background-color: #D0FFC4;
+}
+.navbar-expand-lg .navbar-nav .nav-link {font-size: var(--fs-xl); font-weight: 600; color: var(--dark-color);}
+
