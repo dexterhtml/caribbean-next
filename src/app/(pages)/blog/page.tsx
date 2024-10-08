@@ -16,7 +16,7 @@ const page = () => {
         </div>
       </section >
       <section className="blog-layout-content our-port">
-      <div className="portfolio-tabs py-50 bg-gray">
+      <div className="portfolio-tabs pt-50 bg-gray">
         <div className="container">
           <div className="d-flex">
             <div className="breadcrum-bar py-0 mt-0 ">
@@ -78,10 +78,10 @@ const page = () => {
                     data-bs-target="#1"
                     type="button"
                     role="tab"
-                    aria-controls={1}
+
                     aria-selected="false"
                   >
-                    .Net
+                   Tropical Punch
                   </button>
                 </li>
                 <li className="nav-item">
@@ -92,10 +92,9 @@ const page = () => {
                     data-bs-target="#2"
                     type="button"
                     role="tab"
-                    aria-controls={2}
                     aria-selected="false"
                   >
-                    Android
+                    Cocoloco Bingo
                   </button>
                 </li>
                 <li className="nav-item">
@@ -106,10 +105,9 @@ const page = () => {
                     data-bs-target="#3"
                     type="button"
                     role="tab"
-                    aria-controls={3}
                     aria-selected="false"
                   >
-                    Angular
+                    Login/Sign Up
                   </button>
                 </li>
                 <li className="nav-item">
@@ -120,61 +118,22 @@ const page = () => {
                     data-bs-target="#4"
                     type="button"
                     role="tab"
-                    aria-controls={4}
                     aria-selected="false"
                   >
-                    App Development
-                  </button>
-                </li>
-                <li className="nav-item">
-                  <button
-                    className="nav-link"
-                    id="5-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#5"
-                    type="button"
-                    role="tab"
-                    aria-controls={5}
-                    aria-selected="false"
-                  >
-                    Blockchain
+                    Account
                   </button>
                 </li>
                 <li className="nav-item">
                   <select className="form-select blog-select-main-page">
                     <option value="all">More</option>
-                    <option value={6}>Branding</option>
-                    <option value={7}>Business Solutions</option>
-                    <option value={8}>Business Trip</option>
-                    <option value={10}>CSGO Trade BOT</option>
-                    <option value={11}>Design</option>
-                    <option value={12}>Digital Marketing</option>
-                    <option value={13}>django</option>
-                    <option value={14}>Ecommerce</option>
-                    <option value={16}>Flutter</option>
-                    <option value={17}>Game Development</option>
-                    <option value={18}>Golang</option>
-                    <option value={19}>Hire Web Developers</option>
-                    <option value={20}>HTML5</option>
-                    <option value={22}>Java Development</option>
-                    <option value={23}>Joomla</option>
-                    <option value={24}>Laravel Development</option>
-                    <option value={25}>News</option>
-                    <option value={42}>NextJS</option>
-                    <option value={43}>Node.js Developers</option>
-                    <option value={44}>PHP</option>
-                    <option value={46}>PPC</option>
-                    <option value={47}>Python</option>
-                    <option value={48}>React js</option>
-                    <option value={49}>React Native</option>
-                    <option value={50}>Ruby on Rails</option>
-                    <option value={51}>Rust Programming</option>
-                    <option value={52}>SEO</option>
-                    <option value={53}>SharePoint Development</option>
-                    <option value={54}>Software development</option>
-                    <option value={55}>Web Development</option>
-                    <option value={56}>Wordpress</option>
-                    <option value={57}>Zend</option>
+                    <option value={6}>Lucky Spins</option>
+                    <option value={7}>Daily Draws</option>
+                    <option value={8}>Bingo Blitz</option>
+                    <option value={10}>Jackpot Zone</option>
+                    <option value={11}>Power Bingo</option>
+                    <option value={12}>Golden Balls</option>
+                    <option value={13}>Winning Streak</option>
+                    <option value={14}>Prize Pool</option>
                   </select>
                 </li>
               </ul>
@@ -185,7 +144,7 @@ const page = () => {
             </div>
             <div className="col-12">
               <div className="row gy-4" id="portfolioTabContent">
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -215,10 +174,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -227,7 +186,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -255,12 +214,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -290,10 +249,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -302,7 +261,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -330,12 +289,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -365,10 +324,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -377,7 +336,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -405,12 +364,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -440,10 +399,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -452,7 +411,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -480,12 +439,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -515,10 +474,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -527,7 +486,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -555,12 +514,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -590,10 +549,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -602,7 +561,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -630,12 +589,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -665,10 +624,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -677,7 +636,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -705,12 +664,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -740,10 +699,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -752,7 +711,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -780,12 +739,12 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mb-md-4 mb-lg-5 blog-card">
+                <div className="col-lg-4 col-md-6 mb-2 mb-md-4 mb-lg-5 blog-card">
                   <div className="our-work-card">
                     <div className="work-card-img">
                     <Image
@@ -815,10 +774,10 @@ const page = () => {
                       </ul>
                       <div className="card-detail">
                           <a data-wpel-link="internal"
-                            href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                            href="/blog-detail"
                           >
                            <h2 className="small-title mt-3">How to Play Bingo</h2>
-                            <p> Hipster ipsum tattooed brunch I'm baby. Dreamcatcher four loko kogi cardigan. </p>
+                            <p> Hipster ipsum tattooed brunch I&apos;m baby. Dreamcatcher four loko kogi cardigan. </p>
                           </a>
                       </div>
                     </div>
@@ -827,7 +786,7 @@ const page = () => {
                         <a
                           className="apply-now-link"
                           data-wpel-link="internal"
-                          href="/blog/role-of-data-analytics-in-enhancing-bingo-software-performance"
+                          href="/blog-detail"
                         >
                           Read More
                           <span style={{ marginLeft: 12 }}>
@@ -855,7 +814,7 @@ const page = () => {
                     </ul>
                     <div className="cate-wrap">
                       <div>
-                        <span className="car-value">Software development</span>
+                        <span className="car-value">Account</span>
                       </div>
                     </div>
                   </div>
