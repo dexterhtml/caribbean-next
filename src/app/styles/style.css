@@ -6,10 +6,42 @@
 .banner-height{max-height: 756px; height: calc(100vh - 0px);}
 .caribbean-online{position: relative;}
 .caribbean-online-bg{  
-  /* background: url(/images/caribbean-online-bg.png) no-repeat top center /cover;  */
-  position: absolute;
-  top: -120px;
+  background: url(/images/caribbean-online-bg.png) no-repeat top center /contain; 
+  /* position: relative; */
+  /* top: -120px; */
   z-index: -1;
   left: 0;
   right: 0;
+  padding-top: 200px;
 }
+.let-connect-online{z-index:1; padding-top: 200px;}
+.connect-online-bg{
+  /* background: url(/images/connect-online-bg.png) no-repeat bottom center /cover; */
+  /* padding-top: 300px;  */
+position: absolute;
+inset: 0;
+    top: -182px;
+    width: 100%;
+    z-index: -1
+}
+
+.socail-links {
+      /* display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+     gap:20px;
+      grid-auto-flow: column; */
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 24px;
+}
+.social-links li{
+  border-radius: 16px;
+background: #BBFFAA;
+box-shadow: 0px 4px 24px 0px rgba(70, 7, 167, 0.15);
+
+padding: 20px 12px 20px 4px;
+}
+.socail-links li img{flex: 0 0 92px}
+/* .socail-links li:nth-child(4){margin-top: 40px;} */

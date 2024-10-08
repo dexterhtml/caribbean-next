@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../app/styles/globals.css"
 import "../app//styles/style.css"
 import "../app//styles/custom.css"
+import "../app//styles/custom1.css"
+import "../app//styles/custom2.css"
 import { Noto_Sans } from 'next/font/google'
 import Header from "@/component/partials/Header";
 const noto = Noto_Sans({
