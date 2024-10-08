@@ -37,7 +37,7 @@ export default function Home() {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -49,7 +49,7 @@ export default function Home() {
                     </h2>
                     <div
                       id="flush-collapseOne"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse show"
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
@@ -115,16 +115,16 @@ export default function Home() {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree"
+                        data-bs-target="#flush-collapseFour"
                         aria-expanded="false"
-                        aria-controls="flush-collapseThree"
+                        aria-controls="flush-collapseFour"
                       >
                         Q.4 What are the different types of bingo games
                         available?
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseThree"
+                      id="flush-collapseFour"
                       className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
@@ -141,15 +141,15 @@ export default function Home() {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree"
+                        data-bs-target="#flush-collapseFive"
                         aria-expanded="false"
-                        aria-controls="flush-collapseThree"
+                        aria-controls="flush-collapseFive"
                       >
                         Q.5 How many rounds are in bingo?
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseThree"
+                      id="flush-collapseFive"
                       className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
@@ -166,15 +166,15 @@ export default function Home() {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree"
+                        data-bs-target="#flush-collapseSix"
                         aria-expanded="false"
-                        aria-controls="flush-collapseThree"
+                        aria-controls="flush-collapseSix"
                       >
                         Q.6 What are the rules of bingo?
                       </button>
                     </h2>
                     <div
-                      id="flush-collapseThree"
+                      id="flush-collapseSix"
                       className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
