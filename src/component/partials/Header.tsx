@@ -30,7 +30,7 @@ const Header = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>
-                  Offcanvas
+                <Image src="/images/caribbean-logo.png" alt ="caribbean" width={108} height={72}/> 
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
