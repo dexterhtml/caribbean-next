@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import { Stack } from "react-bootstrap";
 const Footer = () => {
   return (
    <>
@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="col-lg-12">
               <div className="footer-top">
                 <div className="image-section">
-                  <img
+                  <Image
                     src="/images/footer-banner.png"
                     width="1280"
                     height="515"
@@ -29,7 +29,7 @@ const Footer = () => {
               <div className="footer-bottom">
                 <div className="footer-bottom-up">
                   <div className="footer-img">
-                    <img
+                    <Image
                       src="/images/footer-brand-logo.png"
                       width="192"
                       height="128"
@@ -54,7 +54,7 @@ const Footer = () => {
                     <div className="right-down">
                       <Link href="" className="btn-img">
                         {" "}
-                        <img
+                        <Image
                           src="/images/google-play.png"
                           alt="Google Play"
                           width="190"
@@ -62,7 +62,7 @@ const Footer = () => {
                         />{" "}
                       </Link>
                       <Link href="" className="btn-img">
-                        <img
+                        <Image
                           src="/images/app-store.png"
                           alt="App Store"
                           width="162"
@@ -71,7 +71,7 @@ const Footer = () => {
                       </Link>
                       <Link href="" className="btn-img">
                         {" "}
-                        <img
+                        <Image
                           src="/images/microsoft.png"
                           alt="Microsoft"
                           width="190"
@@ -85,7 +85,7 @@ const Footer = () => {
                 <div className="footer-bottom-down">
                   <div className="social-group">
                     <Link href="" className="social-img">
-                      <img
+                      <Image
                         src="/images/facebook-yellow.svg"
                         alt="facebook"
                         width="48"
@@ -93,7 +93,7 @@ const Footer = () => {
                       />
                     </Link>
                     <Link href="" className="social-img">
-                      <img
+                      <Image
                         src="/images/linkedin-yellow.svg"
                         alt="linkedin"
                         width="48"
@@ -101,7 +101,7 @@ const Footer = () => {
                       />
                     </Link>
                     <Link href="" className="social-img">
-                      <img
+                      <Image
                         src="/images/twitter-yellow.svg"
                         alt="twitter"
                         width="48"
@@ -109,7 +109,7 @@ const Footer = () => {
                       />
                     </Link>
                     <Link href="" className="social-img">
-                      <img
+                      <Image
                         src="/images/instagram-yellow.svg"
                         alt="instagram"
                         width="48"
@@ -117,7 +117,7 @@ const Footer = () => {
                       />
                     </Link>
                     <Link href="" className="social-img">
-                      <img
+                      <Image
                         src="/images/youtube-yellow.svg"
                         alt="youtube"
                         width="48"
