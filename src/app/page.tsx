@@ -64,7 +64,7 @@ export default function Home() {
                 <Link href="/" className="btns  btn_primary  ">
                   Join the fun now!
                 </Link>
-                {/* <Link href="/" className='btns  btn_secondary'>Register</Link> */}
+                {/* <Link href="/" className=`&lsquo;btns  btn_secondary`&lsquo;>Register</Link> */}
               </Stack>
             </div>
           </div>
@@ -86,23 +86,23 @@ export default function Home() {
                   the Caribbean right to your home. With bright colors and
                   engaging themes, you&rsquo;ll feel like you&rsquo;re enjoying
                   a beach party. The rules are simple, making it easy for anyone
-                  to join in.{" "}
+                  to join in. 
                 </p>
                 <p>
-                  Both are the{" "}
+                  Both are the 
                   <span className="fw-bold">best online bingo games</span>,
                   providing players with plenty of opportunities to win
                   wonderful prizes. Connect with others and share the thrill as
                   the numbers roll in.
                 </p>
                 <p>
-                  Are you ready to experience the excitement of so{" "}
+                  Are you ready to experience the excitement of so 
                   <span className="fw-bold">many bingo games to play</span>?
                   Join Cocoloco Bingo and Tropical Bingo today. Feel the joy of
                   winning and the fun of playing!
                 </p>
                 <p className="fw-bold">
-                  Don't wait—your Caribbean bingo adventure starts now!
+                  Don`&lsquo;t wait—your Caribbean bingo adventure starts now!
                 </p>
               </div>
               <div className="col-md-6 text-center">
@@ -150,10 +150,10 @@ export default function Home() {
                   Caribbean Bingo offers a unique gaming experience like no
                   other. With vibrant themes and lively graphics, you can enjoy
                   a tropical escape while playing. The fun doesn&rsquo;t stop at
-                  just winning; it's about connecting with others too.{" "}
+                  just winning; it`&lsquo;s about connecting with others too. 
                 </p>
                 <p>
-                  Many players love the friendly community that comes with{" "}
+                  Many players love the friendly community that comes with 
                   <span className="fw-bold">bingo games online</span>. You can
                   chat with fellow players, share tips, and celebrate wins
                   together.
@@ -198,8 +198,8 @@ export default function Home() {
                 <h3 className="section-title">Let’s Connect Online</h3>
                 <p className="">
                   Let’s connect online and enhance your bingo experience! Join
-                  our vibrant community of players and learn about{" "}
-                  <span className="fw-bold">different ways to play bingo </span>{" "}
+                  our vibrant community of players and learn about 
+                  <span className="fw-bold">different ways to play bingo </span> 
                   and several online bingo sites. Follow us on social media to
                   stay updated on special events, promotions, and the latest
                   news. Share your wins, interact with fellow players, and
