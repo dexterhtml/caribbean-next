@@ -46,7 +46,7 @@ export default function Home() {
   const secondHalf = social.slice(3); // Remaining items
   return (
     <>
-      <section className="main-banner banner-height">
+      <section className="main-banner banner-height position-relative">
         <div className="container-xl h-100">
           <div className="row align-items-center h-100">
             <div className="col-lg-8 d-flex flex-column gap-lg-3">
@@ -72,6 +72,7 @@ export default function Home() {
       </section>
 
       <div className="caribbean-online-bg">
+        {/* <Image src="/images/caribbean-online-bg.png" className="caribbean-online-bg w-100" alt ="/images/caribbean-online-bg " width={1440} height={1024}/> */}
         <section className="caribbean-online pb-0">
           <div className="container">
             <div className="row gy-4 align-items-center">
@@ -104,7 +105,7 @@ export default function Home() {
                   Don't wait—your Caribbean bingo adventure starts now!
                 </p>
               </div>
-              <div className="col-lg-6 text-center">
+              <div className="col-md-6 text-center">
                 <Image
                   src="/images/caribbean-online.png"
                   alt="caribbean-online"
@@ -115,7 +116,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-0">
+        <section className="pb-0">
           <div className="container">
             <div className="row gy-4 align-items-center">
               <div className="col-md-9 mx-auto text-center">
@@ -168,22 +169,25 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Image
+       
+      </div>
+      {/* end */}
+      <Image
           src="/images/bingo-60.png"
           alt="bingo 60"
           width={1440}
           height={1024}
-          className="w-100"
+          className="w-100 position-relative"
         />
-        <section className="let-connect-online position-relative z-ind">
+      <section className="let-connect-online connect-online-bg">
           {/* <div className="connect-online-bg"> */}
-          <Image
+          {/* <Image
             src="/images/connect-online-bg.png"
             className="connect-online-bg"
             alt="let-connect"
             width={1440}
             height={1024}
-          />
+          /> */}
           {/* </div> */}
           <div className="container-xl">
             <div className="row align-items-center">
@@ -192,7 +196,7 @@ export default function Home() {
                   Get Social With Us
                 </h2>
                 <h3 className="section-title">Let’s Connect Online</h3>
-                <p>
+                <p className="">
                   Let’s connect online and enhance your bingo experience! Join
                   our vibrant community of players and learn about{" "}
                   <span className="fw-bold">different ways to play bingo </span>{" "}
@@ -203,7 +207,7 @@ export default function Home() {
                   lasting connections together. We can’t wait to see you online!
                 </p>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6 text-center">
                 <Image
                   src="/images/let-connect.png"
                   alt="let-connect"
@@ -211,8 +215,8 @@ export default function Home() {
                   height={574}
                 />
               </div>
-              <div className="col-md-6">
-                <div className="d-flex gap-lg-4 gap-3">
+              <div className="col-lg-6">
+                <div className="d-flex flex-sm-row flex-column gap-lg-4 gap-3">
                   <ul className="social-links">
                     {firstHalf.map((button, index) => (
                       <li
@@ -274,7 +278,58 @@ export default function Home() {
             </div>
           </div>
         </section>
+      <div className="py-100">
+        <div className="container-xl pb-5">
+          <div className="row gy-4 align-items-center">
+            <div className="col-md-6">
+              {/* <h2 className="section-subtitle d-inline-block">
+                
+                </h2> */}
+              <h2 className="section-title">
+                Are You Ready to Travel the Globe?  Fun All Around the World!
+              </h2>
+            </div>
+            <div className="col-md-6">
+              <p>Get ready for an exciting adventure with our global <span className="fw-bold">bingo games to play!</span> You can explore Caribbean and Asian cultures while playing your favorite game. Every week, we offer unique themes and challenges inspired by countries worldwide. You’ll experience vibrant graphics and sounds that transport you to new destinations.   </p>
+              <p>In addition to thrilling <span className="fw-bold">bingo to play online</span>, plenty of bonuses are waiting for you. Earn rewards by participating in special events and completing fun challenges. Our community loves sharing tips and tricks to help you maximize your winnings.  </p>
+              <p>Whether you’re a seasoned player or just starting, there’s always something new to discover when <span className="fw-bold"> playing online bingo games! </span> Join us for the chance to win prizes and enjoy engaging themes.  </p>
+              <Link href="/" className="btns btn_primary mt-md-3 mt-2">Join now!</Link>
+            </div>
+          </div>
+        </div>
+        <Image src="/images/bingo_img1.png" className="w-100" alt="bingo" width={1440} height={951} />
       </div>
+      <section className="pt-0">
+        <div className="container">
+          <div className="row gy-4 align-items-center">
+            <div className="col-md-6 text-center">
+              <Image
+                src="/images/how-to-play.png"
+                alt="how-to-play"
+                width={640}
+                height={411}
+              />
+            </div>
+            <div className="col-md-6">
+              <h2 className="section-title">
+                How to play Bingo Online?
+              </h2>
+              <p>
+                Playing bingo online is simple and fun! First, choose a reputable <span className="fw-bold">best online bingo games</span> site and create your account. Once registered, you can select a game that interests you. Each game has a unique card with a grid of numbers. As the game starts, the host will call out numbers randomly.
+              </p>
+              <p>
+                Your goal is to match the numbers on your card. When you complete a specific pattern, like a line or full house, shout "Bingo!" to claim your prize. Most <span className="fw-bold">online bingo websites</span> offer automatic daubing and marking numbers, so you never miss a win.
+
+              </p>
+              <p>
+                Get ready for endless fun and big wins! Join us today and experience the thrill of <span className="fw-bol">online bingo games!</span>
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
     </>
   );
 }
