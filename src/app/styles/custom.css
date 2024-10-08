@@ -141,3 +141,60 @@ button {
     box-shadow: 0px 0px 32px 0px #4607A733;
     border-radius: 8px;
 }
+.tab-section .nav-tabs .nav-link {
+    font-size: 26px;
+    font-weight: 500;
+    border-radius: 16px;
+    padding: 21px 40px;
+    color: #000;
+    border: none;
+    line-height: normal;
+    min-width: 320px;
+    width: 100%;
+}
+
+.tab-section .nav-tabs .nav-link.active {
+    background: #00C92C;
+    color: #4607A7;
+    font-weight: 800;
+}
+
+.left-side-col {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10rem;
+    background: #C1FEB3;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.content-stick-scroll {
+    max-height: 385px;
+    overflow-y: auto;
+    padding-left: 23px;
+    margin-bottom: 0;
+}
+
+.content-stick-scroll li {
+    list-style: number;
+}
+
+.content-stick-scroll .click-btn {
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 16px;
+    line-height: normal;
+    text-align: left;
+}
+.blog-content-title {
+    font-size: 36px;
+    color: #000;
+    font-weight: 600;
+}
+.content-desc {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;   
+}
