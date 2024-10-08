@@ -4,3 +4,12 @@
   /* background-color: red; */
 }
 .banner-height{max-height: 756px; height: calc(100vh - 0px);}
+.caribbean-online{position: relative;}
+.caribbean-online-bg{  
+  /* background: url(/images/caribbean-online-bg.png) no-repeat top center /cover;  */
+  position: absolute;
+  top: -120px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+}
