@@ -12,7 +12,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 const Header = () => {
     const navigation = [
         {name: 'Home', href : '#service' },
-        {name: 'Blog', href : '#recent-work' },
+        {name: 'Blog', href : '/blog' },
         {name: 'Contact Us', href : '#technologies' },
         {name: 'Policy', href : '#hiredevlopers' },
     ] 
