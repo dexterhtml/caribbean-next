@@ -1,7 +1,17 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 
 const page = () => {
+  function handleScrollIntoView(element: React.MouseEvent<HTMLElement>): void {
+    const targetElement = document.querySelector(
+      `#${element.currentTarget.getAttribute("data-id")}`
+    );
+    if (targetElement) {
+      targetElement.setAttribute("style", "scroll-margin-top:150px;");
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <>
       <section className="blog-banner banner-height">
@@ -48,7 +58,7 @@ const page = () => {
                   <span>
                     <a className="link-home ps-1" href="/">
                       <span className="breadmain">
-                        {" "}
+                        
                         Home <span className="slash-home">/</span>
                       </span>
                     </a>
@@ -78,6 +88,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content0"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                          How to Play Bingo
                         </button>
@@ -88,6 +101,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content1"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                           Quick Overview
                         </button>
@@ -98,6 +114,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content2"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                           How Does One Play Bingo?
                         </button>
@@ -108,6 +127,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content3"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                           How Do You Configure a Bingo Game, Online or Offline?
                         </button>
@@ -118,6 +140,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content4"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                         What is the bingo winning strategy?
                         </button>
@@ -128,6 +153,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content5"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                         How Can Home Bingo Be Played?
 
@@ -139,8 +167,11 @@ const page = () => {
                           className="click-btn"
                           data-id="content6"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
-                          How Is Kids' Bingo Played?
+                          How Is Kids&apos; Bingo Played?
                         </button>
                       </li>
                       <li className="first-li">
@@ -149,6 +180,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content7"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                          How is bingo played in a classroom?
                         </button>
@@ -159,6 +193,9 @@ const page = () => {
                           className="click-btn"
                           data-id="content8"
                           data-value={150}
+                          onClick={(e) => {
+                            handleScrollIntoView(e);
+                          }}
                         >
                         In summary: How to Play Bingo
                         </button>
@@ -297,16 +334,17 @@ const page = () => {
                           <div>
                             Bingo is a fun and easy game for players of all
                             ages. Every occasion is made more exciting and
-                            communal when bingo is played—whether it's at a
+                            communal when bingo is played—whether it&apos;s at a
                             community centre, online, or at home with close
                             friends and family. This comprehensive tutorial will
                             cover all the knowledge you need to play bingo,
-                            whether it's online, in a classroom, or offline.
-                            Let's get going as soon as possible!
+                            whether it&apos;s online, in a classroom, or offline.
+                            Let&apos;s get going as soon as possible!
                           </div>
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content1" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -322,7 +360,7 @@ const page = () => {
                             Players in the card game bingo cross off numbers as
                             a caller selects numbers at random. Being the first
                             to complete a predetermined pattern—typically a
-                            line—and yell "Bingo!" is the goal. In order to win,
+                            line—and yell &quot;Bingo!&quot; is the goal. In order to win,
                             you must swiftly mark the numbers on your card
                             before anybody else and pay great attention to the
                             numbers being called. The game is quite flexible and
@@ -332,6 +370,7 @@ const page = () => {
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content2" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -355,30 +394,27 @@ const page = () => {
                               the first player to mark a particular pattern—a
                               whole card, for example, or a line—horizontally,
                               vertically, or diagonally since this is known as a
-                              "blackout."
+                              &quot;blackout.&quot;
                             </div>
-                            <div>
-                              <br />
-                            </div>
-                            <div>
-                              A standard bingo card features a "free space" in
+                                                
+                            <div className="my-3">
+                              A standard bingo card features a &quot;free spac&quot; in
                               the middle in addition to 25 spaces. Each column
                               with the B-I-N-G-O designations represents a
                               distinct range of integers:
                             </div>
-                            <br />
-                            <ul>
+                            <ul className="mb-3">
                               <li>B column: Numbers 1–15</li>
                               <li>I column: Numbers 16–30</li>
                               <li>N column: Numbers 31–45</li>
                               <li>G column: Numbers 46–60 </li>
                               <li>O column: Numbers 61–75 </li>
                             </ul>
-                            <br />
+                           
                             <div>
                               Players must locate and mark the number on their
                               card when the caller announces each number one at
-                              a time. A player calls out "Bingo!" to announce
+                              a time. A player calls out &quot;Bingo!&quot; to announce
                               their victory after finishing a particular
                               pattern.
                             </div>
@@ -386,6 +422,7 @@ const page = () => {
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content3" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -402,10 +439,9 @@ const page = () => {
                           <div className="content-desc">
                             <div>
                               Bingo is simple to set up, though the steps could
-                              change if you're playing online or offline.
+                              change if you&apos;re playing online or offline.
                             </div>
-                            <br />
-                            <div>
+                            <div className="mt-4">
                               <h3
                                 className="blog-content-title-sub"
                                 id="essential-skills-for-a-react-native-developer"
@@ -415,7 +451,6 @@ const page = () => {
                             </div>
                             <ul className="number-ul">
                               <li>
-                                {" "}
                                 <b>Obtain Bingo Cards:</b> You may either print
                                 and download pre-made bingo cards or make your
                                 own by doing the same. Each player should have a
@@ -425,7 +460,7 @@ const page = () => {
                                 <b>Bingo Cage or Ball Set:</b> In a classic
                                 setup, numbers are drawn at random from a bingo
                                 cage full of numbered balls, usually ranging
-                                from 1 to 75.{" "}
+                                from 1 to 75.
                               </li>
                               <li>
                                 <b>Markers or Chips:</b> Provide the
@@ -443,8 +478,8 @@ const page = () => {
                                 lines, four corners, or blackout (full card).
                               </li>
                             </ul>
-                            <br />
-                            <div>
+                            
+                            <div className="mt-4">
                               <h3
                                 className="blog-content-title-sub"
                                 id="essential-skills-for-a-react-native-developer"
@@ -468,11 +503,12 @@ const page = () => {
                                 <b>Automated Calling and Marking:</b> Some online systems allow you to mark the numbers, and others will draw numbers for you automatically.
                               </li>
                             </ul>
-                            <br />
+                           
                           </div>
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content4" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -481,7 +517,6 @@ const page = () => {
                             id="essential-skills-for-a-react-native-developer"
                           >
                            What is the bingo winning strategy?
-
                           </h2>
                         </div>
                         <div className="content-desc" />
@@ -490,13 +525,13 @@ const page = () => {
                             <div>
                             Bingo is mostly a game of luck, but there are a few tips that can improve your chances:
                             </div>
-                              <br />
-                              <ul className="number-ul">
+                              
+                              <ul className="number-ul mt-3">
                               <li>
                                 <b>Multiple Cards:</b> Playing with multiple cards increases your chances of winning, but make sure you can manage all of them.
                               </li>
                               <li>
-                                <b>Select the Appropriate Time:</b> Whether you're playing online or in a bingo parlour, try to select periods when there are fewer players. Fewer players mean less competition.
+                                <b>Select the Appropriate Time:</b> Whether you&apos;re playing online or in a bingo parlour, try to select periods when there are fewer players. Fewer players mean less competition.
                               </li>
                               <li>
                                 <b>Pay Attention:</b> Staying focused is key. Missing a called number could mean losing the game.
@@ -509,6 +544,7 @@ const page = () => {
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content5" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -525,7 +561,7 @@ const page = () => {
                             <div>
                             Bingo may be a great game to play at home for parties, get-togethers with family and friends, or just a quiet evening. This is how you configure it.
                             </div>
-                            <br />
+                            
                             <div>
                               <h3
                                 className="blog-content-title-sub"
@@ -548,7 +584,7 @@ const page = () => {
                                 <b>Call Numbers Out Loud:</b>Make sure that everyone can hear the numbers and marks their cards appropriately by calling them out loud and clearly.
                               </li>
                             </ul>
-                            <br />
+                          
                             <div>
                               <h3
                                 className="blog-content-title-sub"
@@ -571,7 +607,7 @@ const page = () => {
                                 <b>Screen Sharing:</b>Use the screen-sharing feature to display the numbers being drawn for everyone to see.
                               </li>
                             </ul>
-                            <br />
+                           
                             <div>
                               <h3
                                 className="blog-content-title-sub"
@@ -598,6 +634,7 @@ const page = () => {
                         </div> 
                       </div>
                     </div>
+                    <br />
                     <div id="content6" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -605,7 +642,7 @@ const page = () => {
                             className="blog-content-title"
                             id="essential-skills-for-a-react-native-developer"
                           >
-                           How Is Kids' Bingo Played?
+                           How Is Kids&apos; Bingo Played?
                           </h2>
                         </div>
                         <div className="content-desc" />
@@ -613,8 +650,7 @@ const page = () => {
                         <div className="content-desc">
                           Children love playing bingo because it helps them learn how to recognise patterns and improve their listening abilities. You can alter the game to make it more interesting for young players.
                         </div>
-                        <br />
-                        <ul className="number-ul">
+                        <ul className="number-ul mt-3">
                               <li>
                                 <b>Use Pictures Rather Than Numbers:</b> Make Bingo cards with pictures or images that correspond to a topic, like characters, foods, or animals, in place of numbers.
                               </li>
@@ -631,6 +667,7 @@ const page = () => {
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content7" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -653,7 +690,7 @@ const page = () => {
                                 <b>Learning Bingo:</b>Pick a topic to concentrate on, such as maths, geography, or language. Every Bingo square ought to symbolise a term or idea that the instructor will identify.
                               </li>
                               <li>
-                                <b>Interactive Learning:</b> For instance, in maths bingo, the teacher can shout out basic problems, and the students' task is to locate and mark the correct solution on their card.
+                                <b>Interactive Learning:</b> For instance, in maths bingo, the teacher can shout out basic problems, and the students&apos; task is to locate and mark the correct solution on their card.
                               </li>
                               <li>
                                 <b>Rewards and Recognition:</b> To promote excitement and participation, think of awarding stickers or points towards a prize to the winners.
@@ -662,6 +699,7 @@ const page = () => {
                         </div>
                       </div>
                     </div>
+                    <br />
                     <div id="content8" className="blog-single-post-content ">
                       <div className="table-responsive">
                         <div>
@@ -674,7 +712,7 @@ const page = () => {
                         </div>
                         <div className="content-desc">
                           <div>
-                          Played in a variety of settings, including a bingo hall, online, at home, in the classroom, and even virtually with friends and family, bingo is an adaptable and enjoyable game. Whether playing for enjoyment or using it as a teaching tool, bingo's simple yet thrilling style brings people together. A bingo card, a set of numbers, and a little bit of luck are all you need to play. So gather your cards, have your markers ready, and enjoy the excitement of shouting "Bingo!" when you win.
+                          Played in a variety of settings, including a bingo hall, online, at home, in the classroom, and even virtually with friends and family, bingo is an adaptable and enjoyable game. Whether playing for enjoyment or using it as a teaching tool, bingo&apos;s simple yet thrilling style brings people together. A bingo card, a set of numbers, and a little bit of luck are all you need to play. So gather your cards, have your markers ready, and enjoy the excitement of shouting &quot;Bingo!&quot; when you win.
                           </div>
                         </div>
                       </div>
