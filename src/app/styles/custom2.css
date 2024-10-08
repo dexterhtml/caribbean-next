@@ -197,6 +197,7 @@ overflow: hidden;
     .footer-bottom .footer-bottom-up{
         flex-direction: column;
         align-items:start;
+        gap: 32px;
     }
     .footer-bottom .footer-img {
         width: 148px;
@@ -205,6 +206,15 @@ overflow: hidden;
     .right-down .btn-img img{
         max-height: 36px;
     }
-    
+    .footer-top-content .small-title{
+        margin-bottom: 4px;
+    }
+    .footer-top-content .large-title{
+        margin-bottom: 4px;
+    }
+    .social-group .social-img{
+        width: 36px;
+        height: 36px;
+    }
 }
 /* Responsive Css End Here  */
