@@ -308,6 +308,7 @@ video {
 .my-40 {
   margin-top: clamp(30px, 5vw, 40px);
 }
+
 .my-30 {
   margin-top: clamp(20px, 5vw, 30px);
 }
