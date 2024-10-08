@@ -6,6 +6,7 @@ import "../app/styles/style.css"
 import "../app/styles/custom.css"
 import "../app/styles/custom1.css"
 import "../app/styles/custom2.css"
+import Script from "next/script";
 import { Noto_Sans } from 'next/font/google'
 import Header from "@/component/partials/Header";
 const noto = Noto_Sans({
@@ -31,6 +32,15 @@ export default function RootLayout({
           font-family: ${noto.style.fontFamily};
         }
       `}</style>
+      <head>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossOrigin="anonymous"
+        />
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" />
+      </head>
       <body >
         <Header/>
         {children}
