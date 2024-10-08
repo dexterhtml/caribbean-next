@@ -1,4 +1,3 @@
-/* Footer Css Start From Here  */
 
 .main-footer {
   background-color: #07250e;
@@ -74,7 +73,7 @@ font-size: 14px;
     justify-content: end;
     gap: 48px;
 }
-.right-up .btn-link{
+.right-up .btn-link,.right-up .btn-link:hover{
     color: #F6B703;
     font-size: clamp(18px,4vw,24px);
     line-height: 140%;
@@ -171,9 +170,11 @@ overflow: hidden;
     font-size: clamp(14px,4vw,16px);
     line-height: clamp(120%,4vw,150%);
 }
+
 .faq-wrapper .accordion-flush .accordion-item .accordion-button:focus{
     border-color: none;
     box-shadow: none;
 
 }
 /* Faq Css End Here  */
+

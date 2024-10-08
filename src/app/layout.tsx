@@ -9,6 +9,7 @@ import "../app/styles/custom2.css"
 import Script from "next/script";
 import { Noto_Sans } from 'next/font/google'
 import Header from "@/component/partials/Header";
+import Footer from "@/component/partials/Footer";
 const noto = Noto_Sans({
   subsets: ['latin'],
   display: 'swap',
@@ -33,17 +34,13 @@ export default function RootLayout({
         }
       `}</style>
       <head>
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossOrigin="anonymous"
-        />
+        
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" />
       </head>
       <body >
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

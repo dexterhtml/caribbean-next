@@ -318,15 +318,16 @@ video {
   width: 10px;
   height: 8px;
 }
-/* ::-webkit-scrollbar-track {
-  background: ;
+::-webkit-scrollbar-track {
+  background: #CDFFC1;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var();
-} */
+} 
 
 
 .text-decoration-none {

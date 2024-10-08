@@ -330,6 +330,193 @@ export default function Home() {
           </div>
         </div>
       </section>
+        {/* Faq Start From Here  */}
+        <section className="faq-wrapper py-0">
+      <div className="faq-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="faq-left">
+                <div className="faq-left-desc">
+                  <span className="green-para">How We can help?</span>
+                  <h2 className="com-title">Hipster ipsum tattooed brunch</h2>
+                </div>
+                <div className="faq-left-img">
+                  <Image
+                    src="/images/faq-super-bingo.png"
+                    width={460}
+                    height={260}
+                    alt="Super Bingo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+             
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Q.1 What is online bingo, and how does it work?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse show"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <b>Ans:</b> <b>Online Bingo</b> is a digital adaptation
+                        of traditional bingo in which players have to match
+                        numbers on the cards with those that are called out.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Q.2 How do I sign up to play bingo on your website?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <b>Ans:</b> To <b> play bingo online games</b>, go to
+                        our page and click on the ‘sign up’ button; after that,
+                        complete the fields provided and validate your account
+                        by email.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Q.3 Is it free to play bingo, or do I need to pay?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <b> Ans:</b> You have to pay to join premium games with
+                        bigger prizes and more exciting features.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour"
+                      >
+                        Q.4 What are the different types of bingo games
+                        available?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFour"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <b> Ans:</b> Different forms of <b>bingo games</b> may
+                        include 75-ball, 90-ball, and other types of themed
+                        bingo with standard rules and jackpots.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFive"
+                      >
+                        Q.5 How many rounds are in bingo?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFive"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <b> Ans:</b> The number of rounds varies by game.
+                        However, most sessions include multiple rounds. This, in
+                        turn, provides many chances to win.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSix"
+                      >
+                        Q.6 What are the rules of bingo?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseSix"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <b> Ans:</b> Players match called numbers on their
+                        cards; the first to complete a winning pattern shouts
+                        "Bingo!" to claim victory.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      {/* Faq End Here  */}
     </>
   );
 }
