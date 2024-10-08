@@ -2,19 +2,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { Stack } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 const Header = () => {
     const navigation = [
-        {name: 'Home', href : '#service' },
+        {name: 'Home', href : '/' },
         {name: 'Blog', href : '/blog' },
-        {name: 'Contact Us', href : '#technologies' },
-        {name: 'Policy', href : '#hiredevlopers' },
+        {name: 'Contact Us', href : '/contact-us' },
+        {name: 'Policy', href : '/policy' },
     ] 
   return (
 <>
