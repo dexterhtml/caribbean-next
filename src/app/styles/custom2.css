@@ -128,7 +128,8 @@ font-size: 14px;
     font-size: clamp(20px,4vw,28px);
     position: relative;
     display: inline-block;
-    margin-bottom: 24px;
+    margin-bottom: clamp(12px,4vw,24px);
+    font-weight: 900;
 }
 .faq-left-desc .green-para::before{
     content: '';
@@ -150,7 +151,7 @@ font-size: 14px;
 
 }
 .faq-wrapper .accordion-flush .accordion-item{
-margin-bottom: 32px;
+margin-bottom: clamp(16px,4vw,32px);
 border-radius: 8px;
 border: none;
 overflow: hidden;
@@ -177,3 +178,11 @@ overflow: hidden;
 
 }
 /* Faq Css End Here  */
+
+/* Responsive Css Start From Here  */
+@media(max-width:575px){
+    .faq-section{
+        padding: 100px 0 30px 0;
+    }
+}
+/* Responsive Css End Here  */

@@ -10,7 +10,7 @@ export default function Home() {
       <section className="faq-wrapper py-0">
       <div className="faq-section">
         <div className="container">
-          <div className="row">
+          <div className="row g-3">
             <div className="col-lg-6">
               <div className="faq-left">
                 <div className="faq-left-desc">
@@ -23,6 +23,7 @@ export default function Home() {
                     width={460}
                     height={260}
                     alt="Super Bingo"
+                    className="img-fluid"
                   />
                 </div>
               </div>
