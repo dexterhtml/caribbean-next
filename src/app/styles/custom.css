@@ -1,0 +1,35 @@
+.inner-banner{
+    background: url(/images/contact-banner.png) no-repeat center /cover; 
+}
+.banner-height {
+    max-height: 720px;
+}
+
+/* Custom styles */
+.contact-card {
+    background-color: #b0f7b0;
+    border-radius: 8px;
+    padding: 32px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+}
+
+.contact-icon {
+    background-color: #fff;
+    padding: 9px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 24px;
+    width: 60px;
+    height: 60px;
+}
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-card {
+      margin-bottom: 20px;
+    }
+  }
