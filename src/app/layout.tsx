@@ -16,7 +16,7 @@ const noto = Noto_Sans({
 })
 
 
-//  export const metadata = {
+//  const metadata = {
 //   title: "Caribbean Online Bingo Game",
 //   description: "Caribbean Online Bingo Game",
 // };
