@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import Link from "next/link";
 import { Stack } from "react-bootstrap";
 
@@ -318,7 +317,7 @@ export default function Home() {
                 Playing bingo online is simple and fun! First, choose a reputable <span className="fw-bold">best online bingo games</span> site and create your account. Once registered, you can select a game that interests you. Each game has a unique card with a grid of numbers. As the game starts, the host will call out numbers randomly.
               </p>
               <p>
-                Your goal is to match the numbers on your card. When you complete a specific pattern, like a line or full house, shout "Bingo!" to claim your prize. Most <span className="fw-bold">online bingo websites</span> offer automatic daubing and marking numbers, so you never miss a win.
+                Your goal is to match the numbers on your card. When you complete a specific pattern, like a line or full house, shout &rdquo;Bingo!&rdquo; to claim your prize. Most <span className="fw-bold">online bingo websites</span> offer automatic daubing and marking numbers, so you never miss a win.
 
               </p>
               <p>
@@ -505,7 +504,7 @@ export default function Home() {
                       <div className="accordion-body">
                         <b> Ans:</b> Players match called numbers on their
                         cards; the first to complete a winning pattern shouts
-                        "Bingo!" to claim victory.
+                        &rdquo;Bingo!&rdquo; to claim victory.
                       </div>
                     </div>
                   </div>
