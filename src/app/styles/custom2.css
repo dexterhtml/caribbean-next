@@ -74,7 +74,7 @@ font-size: 14px;
     justify-content: end;
     gap: 48px;
 }
-.right-up .btn-link{
+.right-up .btn-link,.right-up .btn-link:hover{
     color: #F6B703;
     font-size: clamp(18px,4vw,24px);
     line-height: 140%;
